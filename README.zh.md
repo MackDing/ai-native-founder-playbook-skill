@@ -58,11 +58,43 @@ cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook ~/.claude/skil
 
 ### OpenAI Codex
 
+如果你希望以 Codex plugin 的方式安装，使用这个插件包：
+
+```bash
+git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
+```
+
+Plugin path：
+
+```text
+plugins/ai-native-founder-playbook
+```
+
+Repo marketplace metadata：
+
+```text
+.agents/plugins/marketplace.json
+```
+
+如果只需要直接安装 Skill：
+
 ```bash
 git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
 mkdir -p ~/.codex/skills
 cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook ~/.codex/skills/
 ```
+
+### 通用 `.agents/skills` 客户端
+
+如果你的 agent 会扫描 `.agents/skills/`，可以把 canonical skill 复制进去：
+
+```bash
+git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
+mkdir -p .agents/skills
+cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook .agents/skills/
+```
+
+本仓库也内置 `.agents/skills/ai-native-founder-playbook/` 轻量兼容入口，方便直接浏览仓库的 agent 识别。
 
 ### Cursor、Trae、OpenClaw、hermers-agent 与其他 agent
 
@@ -111,6 +143,9 @@ Use $ai-native-founder-playbook to diagnose whether our traction is real PMF or 
 ## 目录结构
 
 ```text
+├── .agents/
+│   ├── skills/ai-native-founder-playbook/ # 通用兼容入口
+│   └── plugins/marketplace.json           # Codex repo marketplace metadata
 ├── ai-native-founder-playbook/          # 可安装 Agent Skill
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
@@ -128,6 +163,15 @@ Use $ai-native-founder-playbook to diagnose whether our traction is real PMF or 
 ├── docs/
 │   ├── The-Founders-Playbook-05062026_v3.pdf
 │   └── 创业者手册-构建AI原生创业公司-中文.pdf
+├── plugins/ai-native-founder-playbook/  # Codex plugin package
+│   ├── .codex-plugin/plugin.json
+│   ├── assets/founders-playbook-cover.png
+│   ├── docs/
+│   └── skills/ai-native-founder-playbook/
+├── submissions/
+│   ├── awesome-copilot.md
+│   └── cursor-marketplace.md
+├── DISTRIBUTION.md
 ├── llms.txt
 ├── README.md
 └── README.zh.md
@@ -138,6 +182,15 @@ Use $ai-native-founder-playbook to diagnose whether our traction is real PMF or 
 本仓库包含 `llms.txt`，便于 AI agents 和 generative search systems 快速识别 canonical skill path、语言行为、安装方式、原文文档和 source map。
 
 核心关键词：AI-native startup、AI 原生创业公司、founder playbook、创业者手册、Agent Skill、startup lifecycle、Idea stage、MVP stage、Launch stage、Scale stage、problem-solution fit、product-market fit、agentic coding、Claude Code、OpenAI Codex、Cursor、Trae、OpenClaw、hermers-agent、startup operating system、GEO、SEO、bilingual skill。
+
+## 分发
+
+查看 [DISTRIBUTION.md](DISTRIBUTION.md)，里面列出了 Codex、Claude Code、Cursor、VS Code/GitHub Copilot、Gemini CLI 和通用 `.agents/skills` 客户端的安装与发布方式。
+
+已准备好的提交素材：
+
+- [github/awesome-copilot](submissions/awesome-copilot.md)
+- [Cursor Marketplace](submissions/cursor-marketplace.md)
 
 ## 更新
 

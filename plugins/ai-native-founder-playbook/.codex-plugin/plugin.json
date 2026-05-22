@@ -1,0 +1,43 @@
+{
+  "name": "ai-native-founder-playbook",
+  "version": "1.0.0",
+  "description": "Bilingual Agent Skill for AI-native startup stage gates, MVP planning, PMF diagnostics, launch operations, and scale-stage moat workflows.",
+  "author": {
+    "name": "MackDing",
+    "url": "https://github.com/MackDing"
+  },
+  "homepage": "https://github.com/MackDing/ai-native-founder-playbook-skill",
+  "repository": "https://github.com/MackDing/ai-native-founder-playbook-skill",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "ai-native-startup",
+    "founder-playbook",
+    "startup-strategy",
+    "product-market-fit",
+    "mvp",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI-Native Founder Playbook",
+    "shortDescription": "Stage-gate playbook for AI-native founders.",
+    "longDescription": "A bilingual Codex plugin that packages the AI-Native Founder Playbook as an Agent Skill for startup idea validation, MVP scope, PMF diagnostics, launch operations, GTM workflows, and scale-stage moat strategy.",
+    "developerName": "MackDing",
+    "category": "Productivity",
+    "capabilities": [
+      "Strategy",
+      "Planning",
+      "Writing"
+    ],
+    "websiteURL": "https://github.com/MackDing/ai-native-founder-playbook-skill",
+    "defaultPrompt": [
+      "Pressure-test my AI startup idea.",
+      "Create an MVP scope and PMF plan.",
+      "Diagnose our launch bottlenecks."
+    ],
+    "brandColor": "#d97452",
+    "composerIcon": "./assets/founders-playbook-cover.png",
+    "logo": "./assets/founders-playbook-cover.png"
+  }
+}

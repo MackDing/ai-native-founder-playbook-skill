@@ -23,6 +23,16 @@ const required = [
   path.join(root, "docs", "创业者手册-构建AI原生创业公司-中文.pdf"),
   path.join(root, "README.md"),
   path.join(root, "README.zh.md"),
+  path.join(root, "DISTRIBUTION.md"),
+  path.join(root, ".agents", "skills", "ai-native-founder-playbook", "SKILL.md"),
+  path.join(root, ".agents", "plugins", "marketplace.json"),
+  path.join(root, "plugins", "ai-native-founder-playbook", ".codex-plugin", "plugin.json"),
+  path.join(root, "plugins", "ai-native-founder-playbook", "assets", "founders-playbook-cover.png"),
+  path.join(root, "plugins", "ai-native-founder-playbook", "docs", "The-Founders-Playbook-05062026_v3.pdf"),
+  path.join(root, "plugins", "ai-native-founder-playbook", "docs", "创业者手册-构建AI原生创业公司-中文.pdf"),
+  path.join(root, "plugins", "ai-native-founder-playbook", "skills", "ai-native-founder-playbook", "SKILL.md"),
+  path.join(root, "submissions", "awesome-copilot.md"),
+  path.join(root, "submissions", "cursor-marketplace.md"),
   path.join(root, "llms.txt"),
   path.join(root, "LICENSE")
 ];
@@ -72,6 +82,69 @@ for (const fileName of rootTextFiles) {
   const file = path.join(root, fileName);
   if (existsSync(file) && /69fe2a55[\s\S]{10000,}/.test(readFileSync(file, "utf8"))) {
     failures.push(`${fileName} appears to contain a raw source dump.`);
+  }
+}
+
+const mirrorRoot = path.join(root, "plugins", "ai-native-founder-playbook", "skills", "ai-native-founder-playbook");
+const mirrorFiles = [
+  "SKILL.md",
+  path.join("agents", "openai.yaml"),
+  path.join("references", "stage-gates.md"),
+  path.join("references", "stage-gates.zh.md"),
+  path.join("references", "workflows.md"),
+  path.join("references", "workflows.zh.md"),
+  path.join("references", "templates.md"),
+  path.join("references", "templates.zh.md"),
+  path.join("references", "source-map.md"),
+  path.join("references", "source-map.zh.md"),
+  path.join("scripts", "stage-checklist.mjs")
+];
+
+for (const relPath of mirrorFiles) {
+  const canonical = path.join(skillDir, relPath);
+  const mirror = path.join(mirrorRoot, relPath);
+  if (!existsSync(mirror)) {
+    failures.push(`Missing plugin mirror file: ${path.relative(root, mirror)}`);
+    continue;
+  }
+  if (existsSync(canonical) && readFileSync(canonical, "utf8") !== readFileSync(mirror, "utf8")) {
+    failures.push(`Plugin mirror is out of sync: ${relPath}`);
+  }
+}
+
+const compatibilityFile = path.join(root, ".agents", "skills", "ai-native-founder-playbook", "SKILL.md");
+if (existsSync(compatibilityFile)) {
+  const text = readFileSync(compatibilityFile, "utf8");
+  if (!text.includes("../../../ai-native-founder-playbook/SKILL.md")) {
+    failures.push(".agents compatibility entry must point to the canonical skill.");
+  }
+}
+
+const pluginJsonFile = path.join(root, "plugins", "ai-native-founder-playbook", ".codex-plugin", "plugin.json");
+if (existsSync(pluginJsonFile)) {
+  try {
+    const plugin = JSON.parse(readFileSync(pluginJsonFile, "utf8"));
+    if (plugin.name !== "ai-native-founder-playbook") failures.push("Codex plugin name must be ai-native-founder-playbook.");
+    if (plugin.skills !== "./skills/") failures.push("Codex plugin skills path must be ./skills/.");
+    if (!plugin.interface?.displayName) failures.push("Codex plugin interface.displayName is required.");
+  } catch (error) {
+    failures.push(`Codex plugin JSON is invalid: ${error.message}`);
+  }
+}
+
+const marketplaceFile = path.join(root, ".agents", "plugins", "marketplace.json");
+if (existsSync(marketplaceFile)) {
+  try {
+    const marketplace = JSON.parse(readFileSync(marketplaceFile, "utf8"));
+    const entry = marketplace.plugins?.find((plugin) => plugin.name === "ai-native-founder-playbook");
+    if (!entry) failures.push("Marketplace must include ai-native-founder-playbook.");
+    if (entry && entry.source?.path !== "./plugins/ai-native-founder-playbook") {
+      failures.push("Marketplace path must be ./plugins/ai-native-founder-playbook.");
+    }
+    if (entry && !entry.policy?.installation) failures.push("Marketplace entry must include policy.installation.");
+    if (entry && !entry.policy?.authentication) failures.push("Marketplace entry must include policy.authentication.");
+  } catch (error) {
+    failures.push(`Marketplace JSON is invalid: ${error.message}`);
   }
 }
 

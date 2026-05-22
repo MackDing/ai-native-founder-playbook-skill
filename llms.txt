@@ -9,6 +9,9 @@ Purpose: A bilingual, vendor-neutral Agent Skill for applying AI-native startup 
 中文用途: 面向 Claude Code、Codex、Cursor、Trae、OpenClaw、hermers-agent 等任意 agent 的双语 Skill，用于创业想法验证、MVP scope、PMF/产品市场匹配、Launch operating system、GTM、Scale moat、AI 原生创业公司增长与运营决策。
 
 Canonical skill directory: ai-native-founder-playbook/
+Generic compatibility directory: .agents/skills/ai-native-founder-playbook/
+Codex plugin package: plugins/ai-native-founder-playbook/
+Distribution guide: DISTRIBUTION.md
 
 Primary files:
 - ai-native-founder-playbook/SKILL.md
@@ -26,6 +29,15 @@ Primary files:
 - docs/The-Founders-Playbook-05062026_v3.pdf
 - docs/创业者手册-构建AI原生创业公司-中文.pdf
 - assets/founders-playbook-cover.png
+- .agents/skills/ai-native-founder-playbook/SKILL.md
+- .agents/plugins/marketplace.json
+- plugins/ai-native-founder-playbook/.codex-plugin/plugin.json
+- plugins/ai-native-founder-playbook/skills/ai-native-founder-playbook/SKILL.md
+- plugins/ai-native-founder-playbook/docs/The-Founders-Playbook-05062026_v3.pdf
+- plugins/ai-native-founder-playbook/docs/创业者手册-构建AI原生创业公司-中文.pdf
+- DISTRIBUTION.md
+- submissions/awesome-copilot.md
+- submissions/cursor-marketplace.md
 
 Use when the user asks about: AI-native startup, founder playbook, startup idea validation, problem-solution fit, MVP planning, product-market fit, agentic coding, Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, launch operations, founder bottlenecks, GTM, enterprise readiness, startup moat, data flywheel, workflow lock-in, or agent workflows for startups.
 
@@ -46,5 +58,6 @@ Sources:
 - https://agentskills.io/specification
 - https://agentskills.io/skill-creation/best-practices
 - https://github.com/marswaveai/skills/tree/main
+- https://developers.openai.com/codex/plugins/
 
 Copyright note: This repository includes source PDFs for convenient reading and attribution. The skill itself contains independent synthesis, checklists, templates, and agent workflow instructions with source attribution.

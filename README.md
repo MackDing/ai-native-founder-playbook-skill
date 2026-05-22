@@ -58,11 +58,43 @@ cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook ~/.claude/skil
 
 ### OpenAI Codex
 
+Use the Codex plugin wrapper when you want a first-class plugin package:
+
+```bash
+git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
+```
+
+Plugin path:
+
+```text
+plugins/ai-native-founder-playbook
+```
+
+Repo marketplace metadata:
+
+```text
+.agents/plugins/marketplace.json
+```
+
+For a direct skill install:
+
 ```bash
 git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
 mkdir -p ~/.codex/skills
 cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook ~/.codex/skills/
 ```
+
+### Generic `.agents/skills` Clients
+
+For agents that scan `.agents/skills/`, copy the canonical skill into that directory:
+
+```bash
+git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
+mkdir -p .agents/skills
+cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook .agents/skills/
+```
+
+This repository also includes `.agents/skills/ai-native-founder-playbook/` as a lightweight compatibility entry for clients that browse the repo directly.
 
 ### Cursor, Trae, OpenClaw, hermers-agent, and other agents
 
@@ -115,6 +147,9 @@ The skill adapts to the user's dominant language:
 ## Directory Structure
 
 ```text
+├── .agents/
+│   ├── skills/ai-native-founder-playbook/ # Generic compatibility entry
+│   └── plugins/marketplace.json           # Codex repo marketplace metadata
 ├── ai-native-founder-playbook/          # Installable Agent Skill
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
@@ -132,6 +167,15 @@ The skill adapts to the user's dominant language:
 ├── docs/
 │   ├── The-Founders-Playbook-05062026_v3.pdf
 │   └── 创业者手册-构建AI原生创业公司-中文.pdf
+├── plugins/ai-native-founder-playbook/  # Codex plugin package
+│   ├── .codex-plugin/plugin.json
+│   ├── assets/founders-playbook-cover.png
+│   ├── docs/
+│   └── skills/ai-native-founder-playbook/
+├── submissions/
+│   ├── awesome-copilot.md
+│   └── cursor-marketplace.md
+├── DISTRIBUTION.md
 ├── llms.txt
 ├── README.md
 └── README.zh.md
@@ -142,6 +186,15 @@ The skill adapts to the user's dominant language:
 This repository includes `llms.txt` so AI agents and generative search systems can quickly discover the canonical skill path, language behavior, install target, source documents, and source map.
 
 Primary keywords: AI-native startup, founder playbook, Agent Skill, startup lifecycle, Idea stage, MVP stage, Launch stage, Scale stage, problem-solution fit, product-market fit, agentic coding, Claude Code, OpenAI Codex, Cursor, Trae, OpenClaw, hermers-agent, startup operating system, GEO, SEO, bilingual skill.
+
+## Distribution
+
+See [DISTRIBUTION.md](DISTRIBUTION.md) for platform-specific installation and publishing notes for Codex, Claude Code, Cursor, VS Code/GitHub Copilot, Gemini CLI, and generic `.agents/skills` clients.
+
+Submission drafts are prepared for:
+
+- [github/awesome-copilot](submissions/awesome-copilot.md)
+- [Cursor Marketplace](submissions/cursor-marketplace.md)
 
 ## Update
 

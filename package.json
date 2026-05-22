@@ -21,8 +21,10 @@
     "trae",
     "openclaw",
     "hermers-agent",
-    "geo",
-    "seo",
+    "github-copilot",
+    "agent-workflows",
+    "startup-strategy",
+    "pmf",
     "bilingual"
   ],
   "license": "MIT"

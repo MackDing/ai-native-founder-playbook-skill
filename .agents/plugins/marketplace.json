@@ -1,0 +1,20 @@
+{
+  "name": "ai-native-founder-playbook-marketplace",
+  "interface": {
+    "displayName": "AI-Native Founder Playbook"
+  },
+  "plugins": [
+    {
+      "name": "ai-native-founder-playbook",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-native-founder-playbook"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
