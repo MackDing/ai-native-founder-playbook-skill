@@ -1,5 +1,7 @@
 # AI-Native Founder Playbook Agent Skill
 
+> [OPC · AI Growth Operator](https://opc.ren/)：面向 solo founders 的 AI 增长运营系统，用带来源的数据诊断业务瓶颈、反推市场与渠道策略，并持续跑通 content → publish → data reflow → review 的增长闭环。
+
 ![The Founder's Playbook cover](assets/founders-playbook-cover.png)
 
 An open-source, vendor-neutral Agent Skill that turns Anthropic's public "The Founder's Playbook: Building an AI-Native Startup" into reusable, agent-readable startup operating knowledge.
