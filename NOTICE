@@ -2,4 +2,4 @@ AI-Native Founder Playbook Agent Skill is an independent open-source project.
 
 It is based on an original synthesis of publicly available ideas from Anthropic's "The Founder's Playbook: Building an AI-Native Startup" and public Agent Skills documentation.
 
-The original playbook, Claude name, and related marks belong to their respective owners. This repository does not redistribute the original ebook or long verbatim excerpts.
+The original playbook, Claude name, and related marks belong to their respective owners. Source PDFs are included under docs/ for convenient reading and attribution. The reusable skill instructions, scripts, and templates are independent synthesis and avoid long verbatim excerpts.

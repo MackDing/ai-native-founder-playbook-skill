@@ -14,6 +14,9 @@ const required = [
   path.join(skillDir, "references", "templates.md"),
   path.join(skillDir, "references", "source-map.md"),
   path.join(skillDir, "scripts", "stage-checklist.mjs"),
+  path.join(root, "assets", "founders-playbook-cover.png"),
+  path.join(root, "docs", "The-Founders-Playbook-05062026_v3.pdf"),
+  path.join(root, "docs", "创业者手册-构建AI原生创业公司-中文.pdf"),
   path.join(root, "README.md"),
   path.join(root, "llms.txt"),
   path.join(root, "LICENSE")

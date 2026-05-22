@@ -1,13 +1,13 @@
 ---
 name: ai-native-founder-playbook
-description: Apply an AI-native startup operating playbook for founders, product builders, and startup agents. Use when evaluating startup ideas, validating problem-solution fit, planning an MVP, avoiding AI-generated technical debt, measuring product-market fit, designing launch operations, scaling GTM or enterprise readiness, turning founder knowledge into durable agent context, or asking for stage-specific startup strategy, experiments, checklists, prompts, or decision frameworks.
+description: Apply a vendor-neutral AI-native startup operating playbook for Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, and other agents. Use when evaluating startup ideas, validating problem-solution fit, planning an MVP, avoiding AI-generated technical debt, measuring product-market fit, designing launch operations, scaling GTM or enterprise readiness, turning founder knowledge into durable agent context, or asking for stage-specific startup strategy, experiments, checklists, prompts, or decision frameworks.
 ---
 
 # AI-Native Founder Playbook
 
 ## Overview
 
-Use this skill to turn AI-native startup questions into stage-appropriate strategy, experiments, operating systems, and agent workflows. Treat AI as leverage for founder judgment: speed is useful only when evidence, scope, architecture, security, and learning loops stay ahead of execution.
+Use this skill to turn AI-native startup questions into stage-appropriate strategy, experiments, operating systems, and agent workflows. Treat AI as leverage for founder judgment: speed is useful only when evidence, scope, architecture, security, and learning loops stay ahead of execution. The skill is agent-neutral: follow it from any environment that can read `SKILL.md` and the referenced files.
 
 ## Core Rules
 

@@ -1,10 +1,12 @@
 # AI-Native Founder Playbook Agent Skill
 
-这是一个开源 Agent Skill，把 Anthropic 公开发布的《The Founder's Playbook: Building an AI-Native Startup》转化为可被 AI agent 直接调用的创业阶段门、验证框架和执行工作流。
+![The Founder's Playbook cover](assets/founders-playbook-cover.png)
 
-适合 Claude Code、OpenAI Codex、Cursor、Gemini CLI、VS Code、GitHub Copilot、OpenCode、Goose 等支持 Agent Skills 格式的客户端。
+这是一个 vendor-neutral 的开源 Agent Skill，把《The Founder's Playbook: Building an AI-Native Startup / 创业者手册：构建 AI 原生创业公司》转化为可被 AI agent 直接调用的创业阶段门、验证框架和执行工作流。
 
-> 独立项目，非 Anthropic 官方项目。本仓库不再分发原始 PDF 或长篇原文摘录。
+适合 Claude Code、OpenAI Codex、Cursor、Trae、OpenClaw、hermers-agent、Gemini CLI、VS Code、GitHub Copilot、OpenCode、Goose，以及任意能读取 `SKILL.md` 的 agent。
+
+> 独立项目，非 Anthropic 官方项目。中英文 source PDFs 已放在 `docs/` 下，方便阅读和引用；Skill 内容本身是面向 agent workflow 的原创整理。
 
 ## 能解决什么
 
@@ -18,14 +20,22 @@
 - 在 Scale 阶段构建 GTM、enterprise readiness、data flywheel、workflow lock-in 和 moat narrative。
 - 把 founder domain expertise 沉淀成可复用 agent context。
 
+## 原文文档
+
+- [English PDF: The Founder's Playbook: Building an AI-Native Startup](docs/The-Founders-Playbook-05062026_v3.pdf)
+- [中文 PDF：创业者手册：构建 AI 原生创业公司](docs/创业者手册-构建AI原生创业公司-中文.pdf)
+- [Claude blog source](https://claude.com/blog/the-founders-playbook)
+
 ## 安装
+
+Claude Code:
 
 ```bash
 git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
 cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook ~/.claude/skills/
 ```
 
-Codex 本地技能目录示例：
+Codex:
 
 ```bash
 git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
@@ -33,16 +43,28 @@ mkdir -p ~/.codex/skills
 cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook ~/.codex/skills/
 ```
 
-项目级安装时，把 `ai-native-founder-playbook/` 复制到项目的 `.claude/skills/`、`.codex/skills/` 或对应 Agent Skills 目录。
+任意 agent 通用方式：
+
+```bash
+git clone https://github.com/MackDing/ai-native-founder-playbook-skill.git
+mkdir -p .agent-skills
+cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook .agent-skills/
+```
+
+然后在项目的 `AGENTS.md`、`.cursorrules`、`.cursor/rules/*.mdc`、Trae rules、OpenClaw rules、hermers-agent rules 或同类规则文件里加入：
+
+```text
+When startup strategy, MVP planning, PMF, launch operations, GTM, or AI-native founder workflows are relevant, use the skill at .agent-skills/ai-native-founder-playbook. Read SKILL.md first, then load references only as needed.
+```
 
 ## 示例 Prompt
 
 ```text
-Use $ai-native-founder-playbook to pressure-test this startup idea before I build the MVP.
+Use $ai-native-founder-playbook to 判断我的项目当前处于 Idea、MVP、Launch 还是 Scale，并给出下一步验证动作。
 ```
 
 ```text
-Use $ai-native-founder-playbook to create an MVP scope, architecture context, measurement plan, and coding-agent session template for this product.
+Use $ai-native-founder-playbook to 为我的 AI 项目生成 MVP_SCOPE.md、architecture context、PMF dashboard 和 coding-agent session template。
 ```
 
 ```text
@@ -53,20 +75,15 @@ Use $ai-native-founder-playbook to diagnose whether our traction is real PMF or 
 
 本仓库包含 `llms.txt`，便于 AI 搜索引擎和 agent 快速识别：
 
-- skill 的用途
-- skill 目录路径
+- Skill 的用途
+- Skill 目录路径
 - 安装方式
+- 中英文原文文档
 - 主要来源
 - 适用场景
 
-核心关键词：AI-native startup、founder playbook、Agent Skill、startup lifecycle、Idea stage、MVP stage、Launch stage、Scale stage、problem-solution fit、product-market fit、agentic coding、Claude Code、OpenAI Codex、Cursor、startup operating system。
-
-## 来源
-
-- Anthropic / Claude blog: [The founder's playbook: Building an AI-native startup](https://claude.com/blog/the-founders-playbook)
-- Public PDF: [The Founder's Playbook: Building an AI-Native Startup](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3%20(1).pdf)
-- Agent Skills specification: [agentskills.io/specification](https://agentskills.io/specification)
+核心关键词：AI-native startup、AI 原生创业公司、founder playbook、创业者手册、Agent Skill、startup lifecycle、Idea stage、MVP stage、Launch stage、Scale stage、problem-solution fit、product-market fit、agentic coding、Claude Code、OpenAI Codex、Cursor、Trae、OpenClaw、hermers-agent、startup operating system。
 
 ## License
 
-本仓库原创整理、Skill 指令、脚本和模板使用 MIT License。原手册和相关商标属于各自权利方。
+本仓库原创整理、Skill 指令、脚本和模板使用 MIT License。原手册、Claude 名称和相关商标属于各自权利方。

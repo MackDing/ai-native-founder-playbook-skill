@@ -2,7 +2,7 @@
 
 Repository: https://github.com/MackDing/ai-native-founder-playbook-skill
 
-Purpose: An Agent Skill for applying AI-native startup strategy across Idea, MVP, Launch, and Scale. It helps founders and agents validate startup ideas, plan MVP scope, avoid AI-generated technical debt, evaluate PMF, build launch operating systems, and design scale-stage moat, GTM, and enterprise-readiness workflows.
+Purpose: A vendor-neutral Agent Skill for applying AI-native startup strategy across Idea, MVP, Launch, and Scale. It helps founders and agents validate startup ideas, plan MVP scope, avoid AI-generated technical debt, evaluate PMF, build launch operating systems, and design scale-stage moat, GTM, and enterprise-readiness workflows.
 
 Canonical skill directory: ai-native-founder-playbook/
 
@@ -13,8 +13,11 @@ Primary files:
 - ai-native-founder-playbook/references/templates.md
 - ai-native-founder-playbook/references/source-map.md
 - ai-native-founder-playbook/scripts/stage-checklist.mjs
+- docs/The-Founders-Playbook-05062026_v3.pdf
+- docs/创业者手册-构建AI原生创业公司-中文.pdf
+- assets/founders-playbook-cover.png
 
-Use when the user asks about: AI-native startup, founder playbook, startup idea validation, problem-solution fit, MVP planning, product-market fit, agentic coding, Claude Code, Codex, Cursor, launch operations, founder bottlenecks, GTM, enterprise readiness, startup moat, data flywheel, workflow lock-in, or agent workflows for startups.
+Use when the user asks about: AI-native startup, founder playbook, startup idea validation, problem-solution fit, MVP planning, product-market fit, agentic coding, Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, launch operations, founder bottlenecks, GTM, enterprise readiness, startup moat, data flywheel, workflow lock-in, or agent workflows for startups.
 
 Sources:
 - https://claude.com/blog/the-founders-playbook
@@ -22,4 +25,4 @@ Sources:
 - https://agentskills.io/specification
 - https://agentskills.io/skill-creation/best-practices
 
-Copyright note: This repository does not redistribute the original ebook. It contains independent synthesis, checklists, templates, and agent workflow instructions with source attribution.
+Copyright note: This repository includes source PDFs for convenient reading and attribution. The skill itself contains independent synthesis, checklists, templates, and agent workflow instructions with source attribution.

@@ -1,11 +1,13 @@
 # Source Map And Caveats
 
-This skill is an independent, source-attributed synthesis for agent use. It does not redistribute the original ebook or long verbatim passages.
+This skill is an independent, source-attributed synthesis for agent use. The repository includes source PDFs under `docs/` for convenient reading and attribution, while the skill instructions avoid long verbatim excerpts and use original operational synthesis.
 
 ## Primary Startup Source
 
 - Anthropic / Claude blog: "The founder's playbook: Building an AI-native startup", published May 14, 2026.
 - Public PDF: "The Founder's Playbook: Building an AI-Native Startup", 36 pages.
+- Included English PDF: `docs/The-Founders-Playbook-05062026_v3.pdf`
+- Included Chinese PDF: `docs/创业者手册-构建AI原生创业公司-中文.pdf`
 
 Source-derived ideas used here:
 
@@ -35,5 +37,5 @@ Skill design choices used here:
 
 - Verify current availability and behavior of specific products, beta features, APIs, security tools, and compliance requirements before relying on them.
 - Do not treat AI-generated security, legal, compliance, fundraising, or financial recommendations as professional advice.
-- Do not copy the original ebook text into downstream repos or generated artifacts unless the user has rights to do so.
+- Do not copy long passages from the source documents into downstream generated artifacts unless the user has rights to do so.
 - Attribute the public source when publishing outputs substantially based on this framework.
