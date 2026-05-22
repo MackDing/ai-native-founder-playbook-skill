@@ -1,0 +1,25 @@
+{
+  "name": "ai-native-founder-playbook-skill",
+  "version": "1.0.0",
+  "description": "Agent Skill for applying AI-native startup stage gates, MVP planning, PMF diagnostics, launch operations, and scale-stage moat workflows.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-skill.mjs && node ai-native-founder-playbook/scripts/stage-checklist.mjs idea && node ai-native-founder-playbook/scripts/stage-checklist.mjs mvp && node ai-native-founder-playbook/scripts/stage-checklist.mjs launch && node ai-native-founder-playbook/scripts/stage-checklist.mjs scale"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-native-startup",
+    "founder-playbook",
+    "startup",
+    "mvp",
+    "product-market-fit",
+    "agentic-coding",
+    "codex",
+    "claude-code",
+    "cursor",
+    "geo",
+    "seo"
+  ],
+  "license": "MIT"
+}

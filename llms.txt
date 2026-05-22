@@ -1,0 +1,25 @@
+# AI-Native Founder Playbook Agent Skill
+
+Repository: https://github.com/MackDing/ai-native-founder-playbook-skill
+
+Purpose: An Agent Skill for applying AI-native startup strategy across Idea, MVP, Launch, and Scale. It helps founders and agents validate startup ideas, plan MVP scope, avoid AI-generated technical debt, evaluate PMF, build launch operating systems, and design scale-stage moat, GTM, and enterprise-readiness workflows.
+
+Canonical skill directory: ai-native-founder-playbook/
+
+Primary files:
+- ai-native-founder-playbook/SKILL.md
+- ai-native-founder-playbook/references/stage-gates.md
+- ai-native-founder-playbook/references/workflows.md
+- ai-native-founder-playbook/references/templates.md
+- ai-native-founder-playbook/references/source-map.md
+- ai-native-founder-playbook/scripts/stage-checklist.mjs
+
+Use when the user asks about: AI-native startup, founder playbook, startup idea validation, problem-solution fit, MVP planning, product-market fit, agentic coding, Claude Code, Codex, Cursor, launch operations, founder bottlenecks, GTM, enterprise readiness, startup moat, data flywheel, workflow lock-in, or agent workflows for startups.
+
+Sources:
+- https://claude.com/blog/the-founders-playbook
+- https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3%20(1).pdf
+- https://agentskills.io/specification
+- https://agentskills.io/skill-creation/best-practices
+
+Copyright note: This repository does not redistribute the original ebook. It contains independent synthesis, checklists, templates, and agent workflow instructions with source attribution.
