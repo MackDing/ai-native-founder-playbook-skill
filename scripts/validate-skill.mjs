@@ -64,11 +64,15 @@ if (existsSync(skillFile)) {
     }
     const extraFrontmatterKeys = frontmatter
       .split("\n")
+      .filter((line) => line.trim() && !/^\s/.test(line))
       .map((line) => line.split(":")[0])
-      .filter(Boolean)
-      .filter((key) => !["name", "description"].includes(key));
+      .filter((key) => !["name", "description", "metadata"].includes(key));
     if (extraFrontmatterKeys.length > 0) {
       failures.push(`Unexpected frontmatter keys: ${extraFrontmatterKeys.join(", ")}`);
+    }
+
+    if (!frontmatter.includes("homepage: https://github.com/MackDing/ai-native-founder-playbook-skill")) {
+      failures.push("SKILL.md should include OpenClaw homepage metadata for registry provenance.");
     }
   }
 

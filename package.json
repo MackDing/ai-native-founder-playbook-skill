@@ -1,6 +1,6 @@
 {
   "name": "ai-native-founder-playbook-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agent Skill for applying AI-native startup stage gates, MVP planning, PMF diagnostics, launch operations, and scale-stage moat workflows.",
   "private": true,
   "type": "module",

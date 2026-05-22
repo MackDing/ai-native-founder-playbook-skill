@@ -6,6 +6,7 @@
 <a href="https://opc.ren/"><img alt="OPC" src="https://img.shields.io/badge/OPC-AI%20Growth%20Operator-f97316" /></a>
 <a href="https://t.me/opc_ren"><img alt="OPC Telegram" src="https://img.shields.io/badge/Telegram-OPC%20Community-26A5E4" /></a>
 <a href="https://x.com/opc_ren"><img alt="OPC on X" src="https://img.shields.io/badge/X-@opc__ren-111111" /></a>
+<a href="https://clawhub.ai/mackding/ai-native-founder-playbook"><img alt="ClawHub" src="https://img.shields.io/badge/ClawHub-Published-0f766e" /></a>
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MackDing/ai-native-founder-playbook-skill?style=social" /></a>
 <br />
 <a href="./README.md">English</a> | 简体中文
@@ -117,6 +118,19 @@ cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook .agent-skills/
 ```text
 当任务涉及 startup strategy、MVP planning、PMF、launch operations、GTM 或 AI-native founder workflows 时，使用 .agent-skills/ai-native-founder-playbook。先读 SKILL.md，再按需加载 references。
 ```
+
+### ClawHub / OpenClaw
+
+这个 Skill 已发布到 ClawHub：
+
+- Listing: [mackding/ai-native-founder-playbook](https://clawhub.ai/mackding/ai-native-founder-playbook)
+- 安装：
+
+```bash
+openclaw skills install ai-native-founder-playbook
+```
+
+ClawHub 根据其 registry policy 将发布的 skills 统一按 MIT-0 展示；本 GitHub 仓库本身仍使用 MIT License。
 
 ## Skill
 

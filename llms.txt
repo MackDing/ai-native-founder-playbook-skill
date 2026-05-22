@@ -6,6 +6,7 @@ Repository: https://github.com/MackDing/ai-native-founder-playbook-skill
 OPC product: https://opc.ren/
 OPC community: https://t.me/opc_ren
 OPC official media: https://x.com/opc_ren
+ClawHub listing: https://clawhub.ai/mackding/ai-native-founder-playbook
 
 Purpose: A bilingual, vendor-neutral Agent Skill for applying AI-native startup strategy across Idea, MVP, Launch, and Scale. It helps founders and agents validate startup ideas, plan MVP scope, avoid AI-generated technical debt, evaluate PMF, build launch operating systems, and design scale-stage moat, GTM, and enterprise-readiness workflows.
 
@@ -15,6 +16,7 @@ Canonical skill directory: ai-native-founder-playbook/
 Generic compatibility directory: .agents/skills/ai-native-founder-playbook/
 Codex plugin package: plugins/ai-native-founder-playbook/
 Distribution guide: DISTRIBUTION.md
+OpenClaw install: openclaw skills install ai-native-founder-playbook
 
 Primary files:
 - ai-native-founder-playbook/SKILL.md

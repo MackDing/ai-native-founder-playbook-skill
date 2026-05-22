@@ -8,6 +8,7 @@ This repository publishes `ai-native-founder-playbook` as a bilingual, vendor-ne
 - OPC product: https://opc.ren/
 - OPC community: https://t.me/opc_ren
 - OPC official media: https://x.com/opc_ren
+- ClawHub listing: https://clawhub.ai/mackding/ai-native-founder-playbook
 - Skill path: `ai-native-founder-playbook/`
 - Generic compatibility path: `.agents/skills/ai-native-founder-playbook/`
 - Codex plugin path: `plugins/ai-native-founder-playbook/`
@@ -42,6 +43,28 @@ For a direct skill install without the plugin wrapper:
 mkdir -p ~/.codex/skills
 cp -R ai-native-founder-playbook-skill/ai-native-founder-playbook ~/.codex/skills/
 ```
+
+## ClawHub / OpenClaw
+
+Published listing:
+
+```text
+https://clawhub.ai/mackding/ai-native-founder-playbook
+```
+
+Install from OpenClaw:
+
+```bash
+openclaw skills install ai-native-founder-playbook
+```
+
+Inspect from ClawHub CLI:
+
+```bash
+npx clawhub@latest inspect ai-native-founder-playbook
+```
+
+ClawHub publishes registry skills under MIT-0 by policy. The canonical GitHub repository remains MIT licensed.
 
 ## Claude Code
 

@@ -1,6 +1,10 @@
 ---
 name: ai-native-founder-playbook
 description: Apply a bilingual, vendor-neutral AI-native startup operating playbook for Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, and other agents. Use for startup idea validation, 创业想法验证, MVP scope, PMF/product-market fit/产品市场匹配, agentic coding debt, launch operations, GTM, scale-stage moat, founder workflows, stage-specific strategy, experiments, checklists, prompts, or decision frameworks.
+metadata:
+  openclaw:
+    homepage: https://github.com/MackDing/ai-native-founder-playbook-skill
+    emoji: "🚀"
 ---
 
 # AI-Native Founder Playbook

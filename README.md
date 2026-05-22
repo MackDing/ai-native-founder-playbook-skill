@@ -6,6 +6,7 @@
 <a href="https://opc.ren/"><img alt="OPC" src="https://img.shields.io/badge/OPC-AI%20Growth%20Operator-f97316" /></a>
 <a href="https://t.me/opc_ren"><img alt="OPC Telegram" src="https://img.shields.io/badge/Telegram-OPC%20Community-26A5E4" /></a>
 <a href="https://x.com/opc_ren"><img alt="OPC on X" src="https://img.shields.io/badge/X-@opc__ren-111111" /></a>
+<a href="https://clawhub.ai/mackding/ai-native-founder-playbook"><img alt="ClawHub" src="https://img.shields.io/badge/ClawHub-Published-0f766e" /></a>
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MackDing/ai-native-founder-playbook-skill?style=social" /></a>
 <br />
 English | <a href="./README.zh.md">简体中文</a>
@@ -117,6 +118,19 @@ Then add this instruction to your repo's agent instruction file (`AGENTS.md`, `.
 ```text
 When startup strategy, MVP planning, PMF, launch operations, GTM, or AI-native founder workflows are relevant, use the skill at .agent-skills/ai-native-founder-playbook. Read SKILL.md first, then load references only as needed.
 ```
+
+### ClawHub / OpenClaw
+
+This skill is published on ClawHub:
+
+- Listing: [mackding/ai-native-founder-playbook](https://clawhub.ai/mackding/ai-native-founder-playbook)
+- Install:
+
+```bash
+openclaw skills install ai-native-founder-playbook
+```
+
+ClawHub publishes skills under MIT-0 according to its registry policy; this GitHub repository remains MIT licensed.
 
 ## Skills
 
