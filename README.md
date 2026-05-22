@@ -136,7 +136,7 @@ ClawHub publishes skills under MIT-0 according to its registry policy; this GitH
 
 | Skill | Trigger | What it does |
 | --- | --- | --- |
-| `$ai-native-founder-playbook` | "startup idea", "MVP scope", "PMF", "launch operations", "GTM", "AI-native startup", "创业想法", "产品市场匹配", "增长闭环" | Diagnoses startup stage, identifies the next evidence gate, produces founder-agent workflows, and generates reusable strategy artifacts. |
+| `$ai-native-founder-playbook` | startup idea, idea validation, customer discovery, problem-solution fit, MVP scope, architecture context, PMF, product-market fit, launch operations, GTM, founder bottleneck, scale-stage moat, AI-native startup, agentic coding debt, 创业想法, 创业想法验证, 产品市场匹配, 增长闭环 | Diagnoses startup stage, identifies the next evidence gate, produces founder-agent workflows, and generates reusable strategy artifacts. |
 
 ## Example Prompts
 

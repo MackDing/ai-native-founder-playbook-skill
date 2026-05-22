@@ -1,7 +1,7 @@
 {
   "name": "ai-native-founder-playbook",
-  "version": "1.0.1",
-  "description": "Bilingual Agent Skill for AI-native startup stage gates, MVP planning, PMF diagnostics, launch operations, and scale-stage moat workflows.",
+  "version": "1.0.2",
+  "description": "Bilingual Agent Skill for AI-native startup idea validation, MVP scope, PMF diagnostics, launch operations, and scale-stage moat workflows.",
   "author": {
     "name": "MackDing",
     "url": "https://github.com/MackDing"
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "AI-Native Founder Playbook",
     "shortDescription": "Stage-gate playbook for AI-native founders.",
-    "longDescription": "A bilingual Codex plugin that packages the AI-Native Founder Playbook as an Agent Skill for startup idea validation, MVP scope, PMF diagnostics, launch operations, GTM workflows, and scale-stage moat strategy.",
+    "longDescription": "A bilingual Codex plugin that packages the AI-Native Founder Playbook as an Agent Skill for startup idea validation, customer discovery, problem-solution fit, MVP scope, architecture context, PMF diagnostics, launch operations, GTM workflows, founder bottlenecks, enterprise readiness, data flywheel design, workflow lock-in, and scale-stage moat strategy.",
     "developerName": "MackDing",
     "category": "Productivity",
     "capabilities": [

@@ -3,7 +3,7 @@
 ## Proposed Entry
 
 ```md
-- [AI-Native Founder Playbook Agent Skill](https://github.com/MackDing/ai-native-founder-playbook-skill) - A bilingual Agent Skill for AI-native startup stage gates, MVP planning, PMF diagnostics, launch operations, GTM, and scale-stage moat workflows.
+- [AI-Native Founder Playbook Agent Skill](https://github.com/MackDing/ai-native-founder-playbook-skill) - A bilingual Agent Skill for AI-native startup idea validation, customer discovery, MVP scope, architecture context, PMF diagnostics, launch operations, GTM, founder bottlenecks, and scale-stage moat workflows.
 ```
 
 ## Category Fit
@@ -15,7 +15,7 @@
 
 ## Repository Summary
 
-AI-Native Founder Playbook Agent Skill packages Anthropic's public founder playbook ideas into reusable, bilingual agent workflows for Claude Code, Codex, Cursor, VS Code Copilot, GitHub Copilot, Trae, OpenClaw, hermers-agent, and other Agent Skills-compatible clients.
+AI-Native Founder Playbook Agent Skill packages Anthropic's public founder playbook ideas into reusable, bilingual agent workflows for Claude Code, Codex, Cursor, VS Code Copilot, GitHub Copilot, Trae, OpenClaw, hermers-agent, and other Agent Skills-compatible clients. It covers startup idea validation, customer discovery, problem-solution fit, MVP scope, architecture context, PMF diagnostics, launch operations, GTM, founder bottlenecks, enterprise readiness, data flywheel, workflow lock-in, and scale-stage moat strategy.
 
 ## Why It Belongs
 

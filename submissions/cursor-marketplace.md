@@ -6,11 +6,11 @@ AI-Native Founder Playbook
 
 ## Short Description
 
-Bilingual Agent Skill for startup stage gates, MVP planning, PMF diagnostics, launch operations, and scale-stage moat workflows.
+Bilingual Agent Skill for startup idea validation, MVP scope, PMF diagnostics, launch operations, GTM, and scale-stage moat workflows.
 
 ## Long Description
 
-AI-Native Founder Playbook is a bilingual Agent Skill for founders and AI coding agents. It turns AI-native startup strategy into reusable workflows for Idea, MVP, Launch, and Scale stages. Use it to validate startup ideas before building, define MVP scope, create architecture context for coding agents, diagnose PMF, design launch operating systems, and build GTM, enterprise-readiness, data flywheel, and moat narratives.
+AI-Native Founder Playbook is a bilingual Agent Skill for founders and AI coding agents. It turns AI-native startup strategy into reusable workflows for Idea, MVP, Launch, and Scale stages. Use it for startup idea validation, customer discovery, problem-solution fit, MVP scope, architecture context for coding agents, PMF diagnostics, launch operations, GTM, founder bottleneck mapping, enterprise readiness, data flywheel design, workflow lock-in, and scale-stage moat narratives.
 
 The skill is vendor-neutral and works with Cursor, Claude Code, OpenAI Codex, VS Code Copilot, GitHub Copilot, Trae, OpenClaw, hermers-agent, Gemini CLI, and other clients that can read `SKILL.md`.
 
@@ -30,7 +30,7 @@ When startup strategy, MVP scope, PMF, launch operations, GTM, or founder workfl
 
 ## Tags
 
-agent-skills, ai-native-startup, founder-playbook, startup-strategy, mvp, product-market-fit, cursor, ai-agents
+agent-skills, ai-native-startup, founder-playbook, startup-strategy, customer-discovery, problem-solution-fit, mvp, product-market-fit, pmf, gtm, founder-bottleneck, data-flywheel, cursor, ai-agents
 
 ## Links
 

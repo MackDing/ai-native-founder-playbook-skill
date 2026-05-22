@@ -44,9 +44,9 @@ Primary files:
 - submissions/awesome-copilot.md
 - submissions/cursor-marketplace.md
 
-Use when the user asks about: AI-native startup, founder playbook, startup idea validation, problem-solution fit, MVP planning, product-market fit, agentic coding, Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, launch operations, founder bottlenecks, GTM, enterprise readiness, startup moat, data flywheel, workflow lock-in, or agent workflows for startups.
+Use when the user asks about: AI-native startup, founder playbook, startup idea, idea validation, startup idea validation, customer discovery, problem hypothesis, problem-solution fit, MVP planning, MVP scope, architecture context, product-market fit, PMF diagnostics, agentic coding, agentic coding debt, Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, launch operations, growth loops, acquisition channels, founder bottlenecks, GTM, enterprise readiness, startup moat, scale-stage moat, data flywheel, workflow lock-in, scaling operations, or agent workflows for startups.
 
-中文触发: AI 原生创业公司, 创业者手册, 创业想法验证, MVP, PMF, 产品市场匹配, 增长闭环, GTM, Launch, Scale, moat, agentic coding, 技术债, founder workflow.
+中文触发: AI 原生创业, AI 原生创业公司, 创业者手册, 创业想法, 创业想法验证, 问题假设, 客户访谈, MVP, MVP 范围, PMF, 产品市场匹配, 产品市场匹配验证, 发布运营, 获客渠道, 增长闭环, GTM, Launch, Scale, moat, 护城河, 规模化, 企业级准备, 数据飞轮, 工作流锁定, agentic coding, 技术债, 创始人瓶颈, founder workflow.
 
 Language behavior:
 - English input -> use English references and answer in English.

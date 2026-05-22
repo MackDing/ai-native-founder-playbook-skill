@@ -1,6 +1,6 @@
 {
   "name": "ai-native-founder-playbook-skill",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Agent Skill for applying AI-native startup stage gates, MVP planning, PMF diagnostics, launch operations, and scale-stage moat workflows.",
   "private": true,
   "type": "module",
@@ -12,8 +12,12 @@
     "ai-native-startup",
     "founder-playbook",
     "startup",
+    "customer-discovery",
+    "problem-solution-fit",
     "mvp",
     "product-market-fit",
+    "pmf",
+    "gtm",
     "agentic-coding",
     "codex",
     "claude-code",
@@ -24,7 +28,8 @@
     "github-copilot",
     "agent-workflows",
     "startup-strategy",
-    "pmf",
+    "data-flywheel",
+    "founder-bottleneck",
     "bilingual"
   ],
   "license": "MIT"
