@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate-skill.mjs && node ai-native-founder-playbook/scripts/stage-checklist.mjs idea && node ai-native-founder-playbook/scripts/stage-checklist.mjs mvp && node ai-native-founder-playbook/scripts/stage-checklist.mjs launch && node ai-native-founder-playbook/scripts/stage-checklist.mjs scale"
+    "test": "node scripts/validate-skill.mjs && node ai-native-founder-playbook/scripts/stage-checklist.mjs idea && node ai-native-founder-playbook/scripts/stage-checklist.mjs idea zh && node ai-native-founder-playbook/scripts/stage-checklist.mjs mvp && node ai-native-founder-playbook/scripts/stage-checklist.mjs mvp zh && node ai-native-founder-playbook/scripts/stage-checklist.mjs launch && node ai-native-founder-playbook/scripts/stage-checklist.mjs launch zh && node ai-native-founder-playbook/scripts/stage-checklist.mjs scale && node ai-native-founder-playbook/scripts/stage-checklist.mjs scale zh"
   },
   "keywords": [
     "agent-skills",
@@ -22,7 +22,8 @@
     "openclaw",
     "hermers-agent",
     "geo",
-    "seo"
+    "seo",
+    "bilingual"
   ],
   "license": "MIT"
 }

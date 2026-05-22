@@ -1,13 +1,21 @@
 ---
 name: ai-native-founder-playbook
-description: Apply a vendor-neutral AI-native startup operating playbook for Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, and other agents. Use when evaluating startup ideas, validating problem-solution fit, planning an MVP, avoiding AI-generated technical debt, measuring product-market fit, designing launch operations, scaling GTM or enterprise readiness, turning founder knowledge into durable agent context, or asking for stage-specific startup strategy, experiments, checklists, prompts, or decision frameworks.
+description: Apply a bilingual, vendor-neutral AI-native startup operating playbook for Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, and other agents. Use for startup idea validation, 创业想法验证, MVP scope, PMF/product-market fit/产品市场匹配, agentic coding debt, launch operations, GTM, scale-stage moat, founder workflows, stage-specific strategy, experiments, checklists, prompts, or decision frameworks.
 ---
 
 # AI-Native Founder Playbook
 
 ## Overview
 
-Use this skill to turn AI-native startup questions into stage-appropriate strategy, experiments, operating systems, and agent workflows. Treat AI as leverage for founder judgment: speed is useful only when evidence, scope, architecture, security, and learning loops stay ahead of execution. The skill is agent-neutral: follow it from any environment that can read `SKILL.md` and the referenced files.
+Use this skill to turn AI-native startup questions into stage-appropriate strategy, experiments, operating systems, and agent workflows. Treat AI as leverage for founder judgment: speed is useful only when evidence, scope, architecture, security, and learning loops stay ahead of execution. The skill is bilingual and agent-neutral: follow it from any environment that can read `SKILL.md` and the referenced files.
+
+## Language Adaptation
+
+Match the user's dominant language.
+
+- English input: answer in English and prefer English reference files.
+- Chinese input: answer in Chinese and prefer `.zh.md` reference files.
+- Mixed input: preserve English proper names and important startup/AI terms while explaining in Chinese where useful.
 
 ## Core Rules
 
@@ -23,15 +31,16 @@ Use this skill to turn AI-native startup questions into stage-appropriate strate
 
 Load only the file needed for the task:
 
-- Read `references/stage-gates.md` for stage diagnosis, exit criteria, failure modes, and stage transitions.
-- Read `references/workflows.md` for step-by-step AI-native founder workflows and prompt patterns.
-- Read `references/templates.md` when producing reusable artifacts such as a problem hypothesis, MVP scope, architecture context, PMF dashboard, launch operating system, or moat narrative.
-- Read `references/source-map.md` when attribution, source caveats, copyright boundaries, or Agent Skills format details matter.
+- Read `references/stage-gates.md` or `references/stage-gates.zh.md` for stage diagnosis, exit criteria, failure modes, and stage transitions.
+- Read `references/workflows.md` or `references/workflows.zh.md` for step-by-step AI-native founder workflows and prompt patterns.
+- Read `references/templates.md` or `references/templates.zh.md` when producing reusable artifacts such as a problem hypothesis, MVP scope, architecture context, PMF dashboard, launch operating system, or moat narrative.
+- Read `references/source-map.md` or `references/source-map.zh.md` when attribution, source caveats, copyright boundaries, or Agent Skills format details matter.
 
 For a quick checklist without loading reference files, run:
 
 ```bash
 node ai-native-founder-playbook/scripts/stage-checklist.mjs idea
+node ai-native-founder-playbook/scripts/stage-checklist.mjs idea zh
 node ai-native-founder-playbook/scripts/stage-checklist.mjs mvp
 node ai-native-founder-playbook/scripts/stage-checklist.mjs launch
 node ai-native-founder-playbook/scripts/stage-checklist.mjs scale
@@ -45,6 +54,13 @@ node ai-native-founder-playbook/scripts/stage-checklist.mjs scale
 | MVP | What exactly should we build first? | Early product-market fit signals through retention, revenue, or referral | AI-generated scope creep and technical debt |
 | Launch | Does this business deserve to grow? | Repeatable acquisition, production readiness, and founder-independent operations | The founder stays in every loop |
 | Scale | Can the company compound without the founder running daily operations? | Auditable growth, mature operations, enterprise trust, and defensible moat | Operational, GTM, and governance gaps |
+
+| 阶段 | 核心问题 | 证据目标 | 主要风险 |
+| --- | --- | --- | --- |
+| Idea | 这件事值得做吗？ | 来自真实 customer discovery 的 problem-solution fit | 未验证就开工 |
+| MVP | 第一版到底该做什么？ | retention、revenue 或 referral 等早期 PMF 信号 | AI 带来的 scope creep 和 technical debt |
+| Launch | 这个业务值得扩大吗？ | 可重复获客、production readiness、founder-independent operations | founder 仍在每个 loop 里 |
+| Scale | 公司能否在不依赖 founder 日常运营的情况下复利？ | 可审计增长、成熟运营、enterprise trust、defensible moat | 运营、GTM、governance 缺口 |
 
 ## Default Workflow
 

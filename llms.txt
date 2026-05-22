@@ -1,28 +1,46 @@
 # AI-Native Founder Playbook Agent Skill
 
+中文名称: AI 原生创业者手册 Agent Skill
+
 Repository: https://github.com/MackDing/ai-native-founder-playbook-skill
 
-Purpose: A vendor-neutral Agent Skill for applying AI-native startup strategy across Idea, MVP, Launch, and Scale. It helps founders and agents validate startup ideas, plan MVP scope, avoid AI-generated technical debt, evaluate PMF, build launch operating systems, and design scale-stage moat, GTM, and enterprise-readiness workflows.
+Purpose: A bilingual, vendor-neutral Agent Skill for applying AI-native startup strategy across Idea, MVP, Launch, and Scale. It helps founders and agents validate startup ideas, plan MVP scope, avoid AI-generated technical debt, evaluate PMF, build launch operating systems, and design scale-stage moat, GTM, and enterprise-readiness workflows.
+
+中文用途: 面向 Claude Code、Codex、Cursor、Trae、OpenClaw、hermers-agent 等任意 agent 的双语 Skill，用于创业想法验证、MVP scope、PMF/产品市场匹配、Launch operating system、GTM、Scale moat、AI 原生创业公司增长与运营决策。
 
 Canonical skill directory: ai-native-founder-playbook/
 
 Primary files:
 - ai-native-founder-playbook/SKILL.md
 - ai-native-founder-playbook/references/stage-gates.md
+- ai-native-founder-playbook/references/stage-gates.zh.md
 - ai-native-founder-playbook/references/workflows.md
+- ai-native-founder-playbook/references/workflows.zh.md
 - ai-native-founder-playbook/references/templates.md
+- ai-native-founder-playbook/references/templates.zh.md
 - ai-native-founder-playbook/references/source-map.md
+- ai-native-founder-playbook/references/source-map.zh.md
 - ai-native-founder-playbook/scripts/stage-checklist.mjs
+- README.md
+- README.zh.md
 - docs/The-Founders-Playbook-05062026_v3.pdf
 - docs/创业者手册-构建AI原生创业公司-中文.pdf
 - assets/founders-playbook-cover.png
 
 Use when the user asks about: AI-native startup, founder playbook, startup idea validation, problem-solution fit, MVP planning, product-market fit, agentic coding, Claude Code, Codex, Cursor, Trae, OpenClaw, hermers-agent, launch operations, founder bottlenecks, GTM, enterprise readiness, startup moat, data flywheel, workflow lock-in, or agent workflows for startups.
 
+中文触发: AI 原生创业公司, 创业者手册, 创业想法验证, MVP, PMF, 产品市场匹配, 增长闭环, GTM, Launch, Scale, moat, agentic coding, 技术债, founder workflow.
+
+Language behavior:
+- English input -> use English references and answer in English.
+- Chinese input -> use `.zh.md` references and answer in Chinese.
+- Mixed input -> keep English product/model/framework/startup terms where they preserve fidelity.
+
 Sources:
 - https://claude.com/blog/the-founders-playbook
 - https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3%20(1).pdf
 - https://agentskills.io/specification
 - https://agentskills.io/skill-creation/best-practices
+- https://github.com/marswaveai/skills/tree/main
 
 Copyright note: This repository includes source PDFs for convenient reading and attribution. The skill itself contains independent synthesis, checklists, templates, and agent workflow instructions with source attribution.

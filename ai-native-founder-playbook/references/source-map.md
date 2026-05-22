@@ -24,6 +24,7 @@ Source-derived ideas used here:
 - Agent Skills overview: https://agentskills.io/home
 - Agent Skills creator best practices: https://agentskills.io/skill-creation/best-practices
 - Anthropic Agent Skills overview: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+- Bilingual README structure reference: https://github.com/marswaveai/skills/tree/main
 
 Skill design choices used here:
 
@@ -31,6 +32,7 @@ Skill design choices used here:
 - Put only `name` and `description` in frontmatter for broad compatibility.
 - Put "when to use" trigger language in the description.
 - Move detailed frameworks into `references/`.
+- Add paired `.zh.md` reference files for Chinese users.
 - Use scripts only for deterministic, repeatable helper output.
 
 ## Caveats
