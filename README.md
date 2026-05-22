@@ -4,12 +4,18 @@
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill"><img alt="Agent Skill" src="https://img.shields.io/badge/Agent%20Skill-AI--Native%20Founder%20Playbook-111827" /></a>
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/MackDing/ai-native-founder-playbook-skill?color=blue" /></a>
 <a href="https://opc.ren/"><img alt="OPC" src="https://img.shields.io/badge/OPC-AI%20Growth%20Operator-f97316" /></a>
+<a href="https://t.me/opc_ren"><img alt="OPC Telegram" src="https://img.shields.io/badge/Telegram-OPC%20Community-26A5E4" /></a>
+<a href="https://x.com/opc_ren"><img alt="OPC on X" src="https://img.shields.io/badge/X-@opc__ren-111111" /></a>
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MackDing/ai-native-founder-playbook-skill?style=social" /></a>
 <br />
 English | <a href="./README.zh.md">简体中文</a>
 </p>
 
 > [OPC · AI Growth Operator](https://opc.ren/): an AI growth operating system for solo founders that diagnoses business bottlenecks with cited data, back-calculates market and channel strategy, and keeps the content → publish → data reflow → review growth loop moving.
+>
+> Community: join the [OPC Telegram group](https://t.me/opc_ren) for AI-native growth, founder workflows, and agent skill updates.
+>
+> Official media: follow [@opc_ren on X](https://x.com/opc_ren).
 >
 > If this skill helps your AI agent make sharper founder decisions, please consider starring the repo so more founders and agents can discover it: ⭐ [MackDing/ai-native-founder-playbook-skill](https://github.com/MackDing/ai-native-founder-playbook-skill)
 

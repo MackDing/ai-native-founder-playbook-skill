@@ -3,6 +3,9 @@
 中文名称: AI 原生创业者手册 Agent Skill
 
 Repository: https://github.com/MackDing/ai-native-founder-playbook-skill
+OPC product: https://opc.ren/
+OPC community: https://t.me/opc_ren
+OPC official media: https://x.com/opc_ren
 
 Purpose: A bilingual, vendor-neutral Agent Skill for applying AI-native startup strategy across Idea, MVP, Launch, and Scale. It helps founders and agents validate startup ideas, plan MVP scope, avoid AI-generated technical debt, evaluate PMF, build launch operating systems, and design scale-stage moat, GTM, and enterprise-readiness workflows.
 

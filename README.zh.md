@@ -4,12 +4,18 @@
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill"><img alt="Agent Skill" src="https://img.shields.io/badge/Agent%20Skill-AI--Native%20Founder%20Playbook-111827" /></a>
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/MackDing/ai-native-founder-playbook-skill?color=blue" /></a>
 <a href="https://opc.ren/"><img alt="OPC" src="https://img.shields.io/badge/OPC-AI%20Growth%20Operator-f97316" /></a>
+<a href="https://t.me/opc_ren"><img alt="OPC Telegram" src="https://img.shields.io/badge/Telegram-OPC%20Community-26A5E4" /></a>
+<a href="https://x.com/opc_ren"><img alt="OPC on X" src="https://img.shields.io/badge/X-@opc__ren-111111" /></a>
 <a href="https://github.com/MackDing/ai-native-founder-playbook-skill/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MackDing/ai-native-founder-playbook-skill?style=social" /></a>
 <br />
 <a href="./README.md">English</a> | 简体中文
 </p>
 
 > [OPC · AI Growth Operator](https://opc.ren/)：面向 solo founders 的 AI 增长运营系统，用带来源的数据诊断业务瓶颈、反推市场与渠道策略，并持续跑通 content → publish → data reflow → review 的增长闭环。
+>
+> 社群：加入 [OPC Telegram 群](https://t.me/opc_ren)，一起讨论 AI-native growth、founder workflows 和 agent skill 更新。
+>
+> 官媒：关注 X 上的 [@opc_ren](https://x.com/opc_ren)。
 >
 > 如果这个 Skill 帮你的 AI Agent 更清晰地判断创业方向、MVP、PMF 和增长路径，欢迎给仓库点亮小星星，帮助更多创业者和 Agent 发现它：⭐ [MackDing/ai-native-founder-playbook-skill](https://github.com/MackDing/ai-native-founder-playbook-skill)
 

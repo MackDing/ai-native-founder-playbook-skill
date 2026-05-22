@@ -5,6 +5,9 @@ This repository publishes `ai-native-founder-playbook` as a bilingual, vendor-ne
 ## Canonical Source
 
 - Repository: https://github.com/MackDing/ai-native-founder-playbook-skill
+- OPC product: https://opc.ren/
+- OPC community: https://t.me/opc_ren
+- OPC official media: https://x.com/opc_ren
 - Skill path: `ai-native-founder-playbook/`
 - Generic compatibility path: `.agents/skills/ai-native-founder-playbook/`
 - Codex plugin path: `plugins/ai-native-founder-playbook/`

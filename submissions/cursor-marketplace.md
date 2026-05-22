@@ -37,6 +37,9 @@ agent-skills, ai-native-startup, founder-playbook, startup-strategy, mvp, produc
 - Repository: https://github.com/MackDing/ai-native-founder-playbook-skill
 - Skill directory: https://github.com/MackDing/ai-native-founder-playbook-skill/tree/main/ai-native-founder-playbook
 - Distribution guide: https://github.com/MackDing/ai-native-founder-playbook-skill/blob/main/DISTRIBUTION.md
+- OPC product: https://opc.ren/
+- OPC community: https://t.me/opc_ren
+- OPC official media: https://x.com/opc_ren
 
 ## Notes
 

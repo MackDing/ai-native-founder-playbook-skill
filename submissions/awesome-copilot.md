@@ -37,3 +37,6 @@ npm test
 - English README: https://github.com/MackDing/ai-native-founder-playbook-skill#readme
 - Chinese README: https://github.com/MackDing/ai-native-founder-playbook-skill/blob/main/README.zh.md
 - Skill directory: https://github.com/MackDing/ai-native-founder-playbook-skill/tree/main/ai-native-founder-playbook
+- OPC product: https://opc.ren/
+- OPC community: https://t.me/opc_ren
+- OPC official media: https://x.com/opc_ren
